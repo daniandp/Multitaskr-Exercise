@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    width: 100vw;
+    height: 72px;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    height: 100%;
+    border-bottom: rgba(204, 210, 221, 0.4) solid 1px; 
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1080px;
+  }
+
+  .logo-tittle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 155px;
+    height: 25px;
+  }
+
+  .cont-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    }
+
+  .download-button {
+    font-weight: 600;
+    color: #FFFFFF;
+    width: 172px;
+    height: 40px;
+    background: linear-gradient(90deg, #4E04AF 0%, rgba(79, 1, 176, 0.8) 100%);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  .tittles {
+    text-align:justify;
+    margin: 5% 0 0 25%;
+  }
+
+  .tittles > h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 30px 0 0 15px;
+    color: #333366;
+  }
+
+  .sub-title {
+    font-size: 14px;
+    color: #757D88;
+    line-height: 21px;
+    margin: 0 0 0 15px;
+  }
+
+  .cont-inputs {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #333366;
+    margin-top: 20px;
+    gap: 15px;
+    padding: 0px 10px 10px 12px;
+  }
+
+  .cont-inputs ::placeholder {
+    color: #333366;
+  }
+
+  .option-confirm {
+    background: rgba(88, 255, 157, 0.08);
+  }
+
+  .option-yes {
+    border: 1px solid #58FF9D;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+ 
+  .bottom-text, .agreement > span {
+    color: #757D88;
+  }
+
+  .name-lastName, .email-phoneNumber, .options-yes-no, .cont-aboutUs, .birth-income {
+    display: flex;
+    gap: 20px;
+    margin: 0 25%;
+  }
+
+  .cont-gross-income {
+    margin: 0 25%;
+  }
+
+  .cont-data, .about-us {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-form {
+    padding: 9.5px 16px;
+    width: 396px;
+    height: 40px;
+    border: 1px solid #CCD2DD;
+    border-radius: 4px;
+  }
+
+  #gross-income {
+    text-align: right;
+  }
+
+  .aditional-income {
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    margin: 0 25%;
+  }
+
+  .hr {
+    width: 370px;
+    height: 1px;
+    margin: 20px;
+    border: 1px solid rgba(204, 210, 221, 0.4);
+  }
+
+  .aditional-income > h2 {
+    font-size: 18px;
+  }
+
+
+  .line-x {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+  }
+
+  .cont-icon-x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50% 50%;
+    border: 1px solid rgba(204, 210, 221, 0.4);
+    box-shadow: 0px 2px 4px rgba(204, 210, 221, 0.24);
+  }
+
+  .bi-x {
+    font-size: 18px;
+    color: #757D88;
+  }
+
+  #gross-income-two {
+    text-align: right;
+  }
+
+  .cont-add-new {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0 25%
+  }
+
+  .cont-add-new > h3 {
+    font-size: 17px;
+    background: linear-gradient(90deg, #4E04AF 0%, rgba(79, 1, 176, 0.8) 100%);
+    -webkit-background-clip: text;
+    color: transparent;  
+
+  }
+
+  .bi-plus-circle-fill {
+    background: linear-gradient(90deg, #4E04AF 0%, rgba(79, 1, 176, 0.8) 100%);
+    -webkit-background-clip: text;
+    color: transparent;  
+    font-size: 32px;
+  }
+
+  .about-us {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 15px;
+    color: #333366;
+  }
+
+  .agreement {
+    display: flex;
+    text-align: left;
+    width: 45%;
+    margin: 1% 25%
+  }
+
+  .bi-check-square-fill {
+    color: #B591F9;
+  }
+
+  .agreement > span {
+    margin: 0 1%
+  }
+
+  .bottom-text {
+    width: 70%;
+    margin: 1.5% 25%
+  }
+
+  .purple-text {
+    background: linear-gradient(0deg, rgba(79,1,176,1) 80%, rgba(78,4,175,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;  
+  }
+
+
+  

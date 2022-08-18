@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="formStyle.css">
+    <link rel="icon" type="image/png" href="imgs/gomultitaskr.png" />
+    <title>Multitaskr</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-menu">
+            <ul class="menu">
+                <li class="logo-tittle">
+                    <img src="imgs/gomultistakrlogo.png" alt="company logo">
+                </li>
+                <li class="cont-button-header">
+                    <button type="button" class="download-button">Download Report</button>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <div class="tittles">
+                <h1>Confirm Information</h1>
+                <p class="sub-title">Make sure your info is complete so you can download your report.</p>
+            </div>
+            <div class="cont-inputs">
+                <div class="name-lastName">
+                    <div class="cont-data">
+                        <label for="firstName">First name </label>
+                        <input type="text" class="input-form" id="firstName" placeholder="John">
+                    </div>
+                    <div class="cont-data">
+                        <label for="lastName">Last name </label>
+                        <input type="text" class="input-form" id="lastName" placeholder="Doe">
+                    </div>
+                </div>
+                <div class="email-phoneNumber">
+                    <div class="cont-data">
+                        <label for="email">Email </label>
+                        <input type="email" class="input-form" id="email" placeholder="john.doe@mail.com">
+                    </div>
+                    <div class="cont-data">
+                        <label for="phoneNumber">Phone number </label>
+                        <input type="tel" class="input-form" id="phoneNumber" placeholder="(619) 123-4567">
+                    </div>
+                </div>
+                <div class="options-yes-no">
+                    <label>Are you interested in financing your project?
+                        <div class="option-yes"><input type="text" class="input-form option-confirm" placeholder="Yes"></div>
+                        <div><input type="text" class="input-form" placeholder="No"></div>
+                    </label>
+                </div>
+                <div class="birth-income">
+                    <div class="cont-data">
+                        <label for="dateOfBirth">Date of birth </label>
+                        <input type="text" class="input-form" id="dateOfBirth" placeholder="12-31-1979">
+                    </div>
+                    <div class="cont-data">
+                        <label for="gross-income">Monthly gross income </label>
+                        <input type="tel" class="input-form" id="gross-income" placeholder="$7,500.00">
+                    </div>
+                </div>
+                <div class="options-yes-no">
+                    <label>Additional household income?
+                        <div class="option-yes"><input type="text" class="input-form option-confirm" placeholder="Yes"></div>
+                        <div><input type="text" class="input-form" placeholder="No"></div>
+                    </label>
+                </div>
+                <div class="aditional-income">
+                    <div>
+                        <h2>Additional household income</h2>
+                    </div>
+                    <div class="line-x">
+                        <hr class="hr">
+                        <div class="cont-icon-x">
+                            <i class="bi bi-x"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="name-lastName">
+                    <div class="cont-data">
+                        <label for="firstName-two">First name </label>
+                        <input type="text" class="input-form" id="firstName-two" placeholder="John">
+                    </div>
+                    <div class="cont-data">
+                        <label for="lastName-two">Last name </label>
+                        <input type="text" class="input-form" id="lastName-two" placeholder="Doe">
+                    </div>
+                </div>
+                <div class="email-phoneNumber">
+                    <div class="cont-data">
+                        <label for="dateOfBirth-two">Date of birth </label>
+                        <input type="text" class="input-form" id="dateOfBirth-two" placeholder="01-01-1984">
+                    </div>
+                    <div class="cont-data">
+                        <label for="relationship">Relationship </label>
+                        <input type="tel" class="input-form" id="relationship" placeholder="Wife">
+                    </div>
+                </div>
+                <div class="cont-data cont-gross-income">
+                    <label for="gross-income">Monthly gross income </label>
+                    <input type="tel" class="input-form" id="gross-income" placeholder="$8,750.00">
+                </div>
+                </div>
+                <div class="cont-add-new">
+                    <i class="bi bi-plus-circle-fill"></i>
+                    <h3>Add new additional home income</h3>
+                </div>
+                <div class="agreement">
+                    <i class="bi bi-check-square-fill"></i>
+                    <span>
+                        <strong>Yes, I agree.</strong> By checking this box, I give Multitaskr written consent to obtain, now and periodically, consumer credit reports (Reports) about me from consumer reporting agencies to show current & future credit products & services I prequalify for when financing with Multitaskr. I understand this authorizes Multitaskr to get multiple Reports, which may appear as an inquiry on my Report, but will not impact my credit score. This authorization expires when my current account terminates unless I revoke earlier by contacting Multitaskr at financial financial@gomultitaskr.com That by providing my phone number, Multitaskr, may call and/or send text messages (including by using equipment to automatically dial telephone numbers) about my interest in a purchase, for marketing/sales purposes, or for any other servicing or informational purpose related to my account. You do not have to consent to receiving calls or texts to purchase from Multitaskr.
+                    </span>
+                </div>
+                <div class="cont-data cont-aboutUs">
+                    <div class="about-us">
+                        <label for="options-select">Where did you heard about us?</label>
+                        <select name="options" class="input-form" id="options-select">
+                            <option disabled selected>Social Media</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-text">
+                <p>By clicking <strong>Download Report</strong> button you agree to <span
+                        class="purple-text">Multitaskr's Privacy Policy</span> and <span class="purple-text">Terms &
+                        Agreements.</span> </p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

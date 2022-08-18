@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/gomultitaskr.png" />
+    <title>Multitaskr</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-menu">
+            <ul class="menu">
+                <li class="logo-tittle">
+                    <img src="images/gomultistakrlogo.png" alt="company logo">
+                </li>
+                <li class="cont-button-header hidden">
+                    <button type="button" class="download-button">Download Report</button>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <div class="tittles">
+                <h1>Confirm Information</h1>
+                <p class="sub-title">Make sure your info is complete so you can download your report.</p>
+            </div>
+            <div class="cont-inputs">
+                <div class="name-lastName">
+                    <div class="cont-data">
+                        <label for="firstName">First name </label>
+                        <input type="text" class="input-form" id="firstName" placeholder="Enter first name">
+                    </div>
+                    <div class="cont-data">
+                        <label for="lastName">Last name </label>
+                        <input type="text" class="input-form" id="lastName" placeholder="Enter last name">
+                    </div>
+                </div>
+                <div class="email-phoneNumber">
+                    <div class="cont-data">
+                        <label for="email">Email </label>
+                        <input type="email" class="input-form" id="email" placeholder="Enter enamil">
+                    </div>
+                    <div class="cont-data">
+                        <label for="phoneNumber">Phone number </label>
+                        <input type="tel" class="input-form" id="phoneNumber" placeholder="Enter phone number">
+                    </div>
+                </div>
+                <div class="options-yes-no">
+                    <label>Are you interested in financing your project?
+                        <div class="option-yes"><input type="text" class="input-form" placeholder="Yes"></div>
+                        <div><input type="text" class="input-form" placeholder="No"></div>
+                    </label>
+                </div>
+                <div class="cont-data cont-aboutUs">
+                    <div class="about-us">
+                        <label for="options-select">Where did you heard about us?</label>
+                        <select name="options" class="input-form" id="options-select">
+                            <option disabled selected>Choose one</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-text">
+                <p>By clicking <strong>Download Report</strong> button you agree to <span
+                        class="purple-text">Multitaskr's Privacy Policy</span> and <span class="purple-text">Terms &
+                        Agreements.</span> </p>
+            </div>
+            <div class="cont-button">
+                <button type="button" class="download-button">Download Report</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
